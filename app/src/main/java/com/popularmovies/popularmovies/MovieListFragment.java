@@ -117,7 +117,7 @@ public class MovieListFragment extends Fragment {
                 Uri builder = Uri.parse(MOVIE_LIST_BASE_URL).buildUpon()
                         .appendEncodedPath(sort)
                         // TODO: 03/08/2016 put de key in build.gradle
-                        .appendQueryParameter(KEY_ID, "03f5de62cb5bef08ed662678d4004fd2")
+                        .appendQueryParameter(KEY_ID, "")
                         .build();
 
                 URL url = new URL(builder.toString());
