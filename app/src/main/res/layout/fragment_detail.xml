@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.popularmovies.popularmovies.DetailActivity.DetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="151dp"
+            android:layout_height="151dp"
+            android:id="@+id/movie_thumbnail"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/movie_tittle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:paddingTop="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_rating"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/release_date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:paddingTop="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:text="@string/sinopsis_label"/>
+    <TextView
+        android:id="@+id/sinopsis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:paddingTop="20dp" />
+</LinearLayout>

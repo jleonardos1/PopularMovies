@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- key -->
+    <string name="pref_sort_key" translatable="false">sort</string>
+
+    <!-- label -->
+    <string name="pref_sort_label">Sort by</string>
+
+    <!-- array values -->
+    <string name="pref_movie_popular" translatable="false">popular</string>
+    <string name="pref_movie_top_rated" translatable="false">top_rated</string>
+
+    <!-- array identification -->
+    <string name="pref_movie_label_popular">Popular</string>
+    <string name="pref_movie_label_top_rated">Top Rated</string>
+
+    <!-- savedInstanceState -->
+    <string name="entity">movie</string>
+    <string name="sinopsis_label">Sinopsis</string>
+</resources>
